@@ -20,6 +20,11 @@ public class LoggingExampleApplication {
 		log.error ("error test");
 		return "HelloLogger";
 	}
+@GetMapping("gerData")
+	public String getData()
+	{
+		return "getData";
+	}
 
 
 	public static void main(String[] args) {
