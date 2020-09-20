@@ -23,7 +23,7 @@ public class LoggingExampleApplication {
 @GetMapping("gerData")
 	public String getData()
 	{
-		return "getData";
+		return "modifly";
 	}
 
 
