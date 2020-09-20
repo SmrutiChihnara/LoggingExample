@@ -17,6 +17,7 @@ public class LoggingExampleApplication {
 	{
 		log.debug ("Logger debung",name);
 		log.info ("info Test");
+		log.error ("error test");
 		return "HelloLogger";
 	}
 
